@@ -1,0 +1,35 @@
+.meme {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626c3 100%);
+  color: white;
+  padding: 20px;
+}
+.meme h1 {
+  font-size: 20px;
+  margin-right: auto;
+}
+.meme h4 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap: 17px;
+}
+.form-button {
+  grid-template: 1 / -1;
+  background: linear-gradient(90deg, #672280 1.18%, #a626c3 100%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+main {
+  padding: 36px;
+}
+.form-input {
+  border-radius: 5px;
+  text-indent: 5px;
+}
