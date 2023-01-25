@@ -1,4 +1,3 @@
-import { InsertEmoticon } from "@material-ui/icons";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import useFetch from "../../../hook/useFetch";
