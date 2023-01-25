@@ -11,7 +11,7 @@ const Products = ({ cat }) => {
   const { data, loading, error } = useFetch(
     cat
       ? `/properties?categories=${cat}`
-      : "http://localhost:5000/api/properties"
+      : "https://newsflash.herokuapp.com/api/properties"
   );
 
   return (

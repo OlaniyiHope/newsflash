@@ -35,7 +35,10 @@ const Register = ({ inputs, title }) => {
         img: url,
       };
 
-      await axios.post("http://localhost:5000/api/auth/register", newUser);
+      await axios.post(
+        "https://newsflash.herokuapp.com/api/auth/register",
+        newUser
+      );
       navigate("/login");
     } catch (err) {}
   };

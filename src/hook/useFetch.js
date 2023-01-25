@@ -9,7 +9,9 @@ const useFetch = (url) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api${url}`);
+        const res = await axios.get(
+          `https://newsflash.herokuapp.com/api${url}`
+        );
         setData(res.data);
       } catch (err) {
         setError(err);
