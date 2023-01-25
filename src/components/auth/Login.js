@@ -29,7 +29,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
     try {
       const res = await axios.post(
-        "https://newsflashapi.herokuapp.com/api/auth/login",
+        "https://newsflash.herokuapp.com/api/auth/login",
         credentials
       );
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
