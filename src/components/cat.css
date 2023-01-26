@@ -1,0 +1,16 @@
+.hii {
+  display: flex;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .hii {
+    display: block;
+  }
+}
+@media screen and (max-width: 560px) {
+  .hii {
+    display: block;
+  }
+}

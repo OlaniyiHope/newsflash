@@ -20,7 +20,7 @@ const Header = () => {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="yo" style={{ verticalAlign: "middle" }}>
                 <Categories2 />
               </li>
 

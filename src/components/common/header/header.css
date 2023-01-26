@@ -5,14 +5,17 @@
 .logo1 {
   margin: auto;
 }
+.container {
+  margin: auto;
+}
 header {
   background-color: #000;
   color: #fff;
-  margin-bottom: 20px;
 }
 header li {
   margin-right: 30px;
   transition: 0.5s;
+  padding-left: 0px;
 }
 
 header a {
@@ -75,5 +78,20 @@ header a {
   }
   header ul li {
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .yo {
+    display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  .yo {
+    display: block;
+  }
+}
+@media screen and (max-width: 580px) {
+  .yo {
+    display: block;
   }
 }
