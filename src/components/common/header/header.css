@@ -2,7 +2,7 @@
   cursor: pointer;
   background-color: #fff;
 }
-.logo {
+.logo1 {
   margin: auto;
 }
 header {
@@ -25,18 +25,18 @@ header a {
   display: none;
   border: none;
 }
-.logo {
+.logo1 {
   display: flex;
   margin: auto;
   text-align: center;
 }
-.logo img {
+.logo1 img {
   width: 90px;
   height: 100px;
   backface-visibility: hidden;
   vertical-align: middle;
 }
-.logo h1 {
+.logo1 h1 {
   vertical-align: middle;
   padding-top: 40px;
   font-family: Raleway, sans-serif;

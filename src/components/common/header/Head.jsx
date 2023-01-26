@@ -5,7 +5,7 @@ const Head = () => {
     <>
       <section className="head">
         <div className="container">
-          <div className="logo" style={{ margin: "auto" }}>
+          <div className="logo1" style={{ margin: "auto" }}>
             <img src="../images/flash3.png" alt="" />
             <h1> NEWSFLASH</h1>
           </div>
