@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import "./side.css";
-
 import SocialMedia from "../social/SocialMedia";
 import Heading from "../../../common/heading/Heading";
 import Categories from "../../../Categories";

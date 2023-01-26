@@ -1,21 +1,20 @@
 .head {
   cursor: pointer;
+  background-color: #fff;
 }
-.head .logo img {
-  width: 500px;
+.logo {
+  margin: auto;
 }
 header {
   background-color: #000;
   color: #fff;
+  margin-bottom: 20px;
 }
 header li {
   margin-right: 30px;
   transition: 0.5s;
 }
-header li:hover {
-  color: crimson;
-  cursor: pointer;
-}
+
 header a {
   color: #fff;
 }
@@ -26,6 +25,24 @@ header a {
   display: none;
   border: none;
 }
+.logo {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+.logo img {
+  width: 90px;
+  height: 100px;
+  backface-visibility: hidden;
+  vertical-align: middle;
+}
+.logo h1 {
+  vertical-align: middle;
+  padding-top: 40px;
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+}
+
 @media screen and (max-width: 768px) {
   .head .ad {
     display: none;
