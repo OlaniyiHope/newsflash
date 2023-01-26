@@ -7,7 +7,6 @@ const Footer = () => {
       <footer>
         <div className="container">
           <div className="box logo">
-            <img src="../images/tech-logo-footer.png" alt="" />
             <p>
               Discussion is an amazing Blog that helps you learn about whats
               trending and also keep a smile on your face

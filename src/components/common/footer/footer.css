@@ -28,6 +28,9 @@ footer .item img {
 footer .item p {
   padding: 10px 20px;
 }
+.logo {
+  display: block;
+}
 
 footer ul li {
   margin-bottom: 20px;
