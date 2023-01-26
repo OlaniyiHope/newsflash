@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #672280 1.18%, #a626c3 100%);
+  background: #fb4c35;
   color: white;
   padding: 20px;
 }
@@ -21,7 +21,7 @@
 }
 .form-button {
   grid-template: 1 / -1;
-  background: linear-gradient(90deg, #672280 1.18%, #a626c3 100%);
+  background: #fb4c35;
   color: #fff;
   border: none;
   cursor: pointer;
