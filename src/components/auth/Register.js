@@ -36,7 +36,7 @@ const Register = ({ inputs, title }) => {
       };
 
       await axios.post(
-        "https://newsflash.herokuapp.com/api/auth/register",
+        "https://newsflashapi.vercel.app/api/auth/register",
         newUser
       );
       navigate("/login");
