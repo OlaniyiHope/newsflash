@@ -36,7 +36,7 @@ const Register = ({ inputs, title }) => {
       };
 
       await axios.post(
-        "https://newsflashapi.vercel.app/api/auth/register",
+        "http://localhost:5000/api/auth/register",
         newUser
       );
       navigate("/login");
