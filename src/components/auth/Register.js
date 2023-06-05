@@ -36,7 +36,7 @@ const Register = ({ inputs, title }) => {
       };
 
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://newsflashapi.herokuapp.com/api/auth/register",
         newUser
       );
       navigate("/login");

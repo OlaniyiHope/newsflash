@@ -10,7 +10,7 @@ const useFetch = (url) => {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          `https://newsflashapi.vercel.app/api${url}`
+          `https://newsflashapi.herokuapp.com//api${url}`
         );
         setData(res.data);
       } catch (err) {
